@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Outfit', sans-serif;
+    /*src: url('../fonts/Outfit-VariableFont_wght.ttf');*/
+    src: url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap')
+}
+:root{
+--primary-color: #fffeff;
+    --section-color: #f3f4f6;
+    --text-color: #394150;
+    --header-color: #000;
+    --text-color-blue: #263fa9;
+    --background-1: #86e7d4 ;
+    --background-2: #8dc4f8 ;
+    --background-3: #c1b6f9 ;
+    --background-4: #edacd2 ;
+    --background-5: #f8d8b0 ;
+    --main-font: 'Outfit';
+    --link-footer: #284bce;
+}
+
+body {
+    font-family: var(--main-font), sans-serif;
+    background-color: var(--primary-color);
+    font-size: 1rem;
+    color: var(--text-color);
+}
+
+h1{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.link-all{
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+.card{
+    max-width: 384px;
+    position: relative;
+    margin-bottom: 1rem;
+
+}
+.card img{
+    width: 100%;
+
+}
+.one{
+    background-color: var(--background-3);
+}
+.two{
+    background-color: var(--background-4);
+}
+.three{
+    background-color: var(--background-2);
+}
+.four{
+    background-color: var(--background-5);
+}
+.five{
+    background-color: var(--background-1);
+}
+.member-item{
+    position: absolute;
+    bottom: 2rem;
+    left: 1rem;
+}
+
+
+
+/* ================  FOOTER  ============== */
+
+footer {
+    max-width: 275px;
+    margin: 0 auto;
+    padding: 3rem 0;
+    /*color: var();*/
+}
+
+.attribution {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.attribution p {
+    font-weight: 600;
+}
+
+.attribution a {
+    font-style: italic;
+    text-decoration: none;
+    color: var(--link-footer);
+}
